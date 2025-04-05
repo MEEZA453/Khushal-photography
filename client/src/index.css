@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    @font-face {
+        font-family : inter-regular;
+        src : url(./assets/fonts/Inter_28pt-Regular.ttf)
+    }
+    @font-face {
+        font-family : apple-garamond-italic;
+        src:  url(./assets/fonts/AppleGaramond-LightItalic.ttf);
+    }
+    @font-face {
+        font-family : inter-medium;
+        src:  url(./assets/fonts/Inter_28pt-Medium.ttf);
+    }
+}
+
+
+@layer base {
+    html{
+        background-color: rgb(255, 255, 255);
+    }
+    a{
+        font-family : 'inter-regular' ;
+        font-size : 15px ;
+        line-height : 1.5vh;
+        color : black ; 
+
+    }
+    h5{
+        font-family : 'inter-regular' ;
+        font-size : 13px ;
+        line-height : 1.5vh;
+        color : black ; 
+
+    }
+    h3{
+        font-family : 'inter-regular' ;
+        font-size :7vw ;
+        letter-spacing : -0.2vw;
+        line-height : 1.5vh;
+        color : black ; 
+
+    }
+    h4{
+        font-family : 'inter-regular' ;
+        font-size : 15px ;
+        line-height : 1.5vh;
+        color : black ; 
+       
+
+    }
+    h2 {
+        font-family : 'apple-garamond-italic';
+        font-size : 8.5vw;
+        letter-spacing  : -0.2vw;
+        line-height : 3.5vh;
+        color : black ;
+        opacity : 80%;
+    }
+    p{
+      font-family : 'inter-regular' ;
+      font-size : 13px ;
+      line-height : 1.5vh;
+      color : black ; 
+      opacity : 60%   
+
+  }
+}
