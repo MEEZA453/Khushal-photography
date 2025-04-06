@@ -21,7 +21,7 @@ function Menu() {
       transition={{ duration: 0.5, ease: 'easeInOut' }}
       className='h-screen w-screen bg-white bg-opacity-70 px-4'
     >
-      <button className='bg-white absolute bottom-24 left-1/2 -translate-x-[15vw] font-[inter-medium] tracking-tighter border rounded-full h-fit w-fit py-1 px-3'>
+      <button className='bg-white text-[4.5vw] absolute bottom-24 left-1/2 -translate-x-[15vw] font-[inter-medium] tracking-tighter border rounded-full h-fit w-fit py-1 px-3'>
         Get in touch
       </button>
 
@@ -41,7 +41,7 @@ function Menu() {
                 exit={{ y: 50, opacity: 0 }}
                 transition={{ duration: 0.5, delay: i * 0.1, ease: 'easeOut' }}
                 className={` duration-300  ${
-                    isActive ? 'text-black text-opacity-100' : ' text-black text-opacity-30'
+                    isActive ? 'text-black  text-opacity-100' : ' text-black text-opacity-30'
                 }`}
               >
                 {el.name}

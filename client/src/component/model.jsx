@@ -20,7 +20,7 @@ function Model() {
   const { index } = location.state || 0
   console.log(index)
   const [toggle, setToggle] = useState(false)
-  const [modelIndex, setModelIndex] = useState(index?index :2)
+  const [modelIndex, setModelIndex] = useState(index?index :0)
   const [selectedIndex , setSelectedIndex] = useState(3)
   const foundedModel = allImages.filter((el, i) => modelIndex === i)
 console.log(foundedModel)
@@ -29,7 +29,7 @@ console.log(foundedModel)
 
 
   return (
-    <div> 
+    <motion.div > 
    
      
       <div className="flex flex-row-reverse ">
@@ -47,6 +47,7 @@ console.log(foundedModel)
                 key={j}
                 className="flex flex-row-reverse gap-[4px] text-right"
                 initial={{ opacity: 0, y: 50 }}
+                animate = {{ opacity: 1, y: 0}}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, ease: "easeInOut" }}
                 viewport={{ once: true, amount: 0.3 }}
@@ -61,7 +62,7 @@ console.log(foundedModel)
       <div className="fixed top-[90%] right-[43%] z-[100]">
         <ViewToggle toggle={toggle} setToggle={setToggle} />
       </div>
-    </div>
+    </motion.div>
   )
 }
 
