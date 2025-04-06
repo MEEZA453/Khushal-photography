@@ -1,55 +1,57 @@
-import React from 'react'
-import { useState , useEffect  } from 'react'
+import React, { useState, useEffect } from 'react'
 import ImageAlgo from './imageAlgo.jsx'
-import img1 from '../../assets/images/img1.jpg'
-import img2 from '../../assets/images/img2.jpg'
-import img3 from '../../assets/images/img3.jpg'
-import img4 from '../../assets/images/img4.jpg'
-import img5 from '../../assets/images/img5.jpg'
-import img6 from '../../assets/images/img6.jpg'
-import Navber from '../../component/navber/navber.jsx';
+
+import Hero from '../hero/hero.jsx'
+import Menu from '../../component/menu.jsx'
+import Navber from '../../component/navber/navber.jsx'
 import ViewToggle from '../../component/button/viewToggle.jsx'
 import ListImage from '../../component/imageViewer/listImage.jsx'
+import { AnimatePresence } from 'framer-motion'
+import {useImageContext} from '../../context/imageProvider.jsx'
 function Index() {
-  const [images , setImages] = useState([
-    {
-      modelName : 'Glamup',
-      id : '@glumpybychaudhari',
-      captures : [img1 , img2],
-      isOpen : false,
-    },
-    {
-      modelName : 'Natasha Bharadwaj',
-      id : '@glumpybychaudhari',
-      captures : [img3 , img4],
-      isOpen : false,
-    },
-    {
-      modelName : 'Ariyana Ghose',
-      id : '@ariyanaghose',
-      captures : [img5 , img6],
-      isOpen : false,
-    },
-    {
-      modelName : 'Glamup',
-      id : '@glumpybychaudhari',
-      captures : [img1 , img2],
-      isOpen : false,
-    },
-    {
-      modelName : 'Natasha Bharadwaj',
-      id : '@glumpybychaudhari',
-      captures : [img3 , img4],
-      isOpen : false,
-    },
-  ])
-const [toggle  , setToggle] = useState(false)
+  const [visibility, setVisibility] = useState(false)
+  const {images , setImages } = useImageContext()
+
+  const [toggle, setToggle] = useState(false)
+  const [isMenuShown , setIsMenuShown] = useState(false)
+
+  // Set visibility to true when scroll starts
+  useEffect(() => {
+    const handleScroll = () => {
+      // Set visibility true on first scroll
+      setVisibility(true)
+      // Optionally, you can remove the listener after first scroll:
+      window.removeEventListener('scroll', handleScroll)
+    }
+    window.addEventListener('scroll', handleScroll)
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [])
 
   return (
     <div>
-      <Navber/>{toggle ? <ListImage images = {images} setImage  = {setImages}/> : <ImageAlgo images = {images}  setImages = {setImages}/>}
-    
-      <div className='fixed top-[90%] right-[43%]'>   <ViewToggle toggle = {toggle} setToggle = {setToggle}/></div>
+      <div className="sticky top-0 z-[999]">
+        <Navber  isMenuShown = {isMenuShown} setIsMenuShown ={setIsMenuShown} />
+      </div>
+      <AnimatePresence mode='wait'>
+      {isMenuShown ?<div className='fixed top-0 z-[100] duration-700'>
+      <Menu setIsShown = {setIsMenuShown}/></div>:null}
+      </AnimatePresence>
+      {/* <div className="fixed top-0">
+        <Hero visibility = {visibility} />
+      </div> */}
+
+      {/* Use the "visibility" state to control display or animation */}
+      <div className={`transition-all duration-500 `}>
+        <div>
+          {toggle 
+            ? <ListImage images={images} setImages={setImages} /> 
+            : <ImageAlgo images={images} setImages={setImages} />
+          }
+        </div>
+      </div>
+        <div className="fixed top-[90%] z-[50] right-[43%]">
+          <ViewToggle visibility={visibility} toggle={toggle} setToggle={setToggle} />
+        </div>
     </div>
   )
 }

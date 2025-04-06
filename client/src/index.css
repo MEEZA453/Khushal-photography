@@ -32,16 +32,16 @@
     }
     h5{
         font-family : 'inter-regular' ;
-        font-size : 13px ;
-        line-height : 1.5vh;
+        font-size : 3.5vw ;
+        line-height : 3.3vw;
         color : black ; 
 
     }
     h3{
         font-family : 'inter-regular' ;
         font-size :7vw ;
-        letter-spacing : -0.2vw;
-        line-height : 1.5vh;
+        letter-spacing : -0.3vw;
+        line-height : 3vh;
         color : black ; 
 
     }
@@ -57,16 +57,28 @@
         font-family : 'apple-garamond-italic';
         font-size : 8.5vw;
         letter-spacing  : -0.2vw;
-        line-height : 3.5vh;
+        line-height : 2.9vh;
         color : black ;
         opacity : 80%;
     }
     p{
-      font-family : 'inter-regular' ;
-      font-size : 13px ;
-      line-height : 1.5vh;
+      font-family : 'inter-medium' ;
+      font-size : 16px ;
+      line-height : 1.7vh;
       color : black ; 
-      opacity : 60%   
+      opacity : 70%   
 
+  }
+  .scrollbar-hide {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;     /* Firefox */
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;             /* Chrome, Safari, Opera */
+  }
+  .backdrop {
+    backdrop-filter: blur(100px);
+    -webkit-backdrop-filter: blur(100px); /* For Safari */
   }
 }
