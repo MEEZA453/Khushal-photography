@@ -13,6 +13,9 @@ const navigate = useNavigate()
  const handleOnClick = (index)=>{
 navigate('/Models' , {state : { index : index}})
  }
+ useEffect(() => {
+  window.scrollTo(0, 0); // scrolls to top
+}, []);
  const handleIsOpen = (index)=>{
   console.log('clicked')
   setIsVisible(true)
@@ -23,7 +26,7 @@ navigate('/Models' , {state : { index : index}})
   )
  }
   return (
-    <div className='absolute'>
+    <div className=''>
 {images.map((el, i)=>{
   console.log(el.isOpen)
     return  <motion.div key={el.id || i}
@@ -47,7 +50,13 @@ navigate('/Models' , {state : { index : index}})
       
       
     </div> 
-    <div className=" pl-3 mt-1 flex gap-2 overflow-x-scroll scrollbar-hide scroll-smooth scroll-snap-x">
+    <AnimatePresence>
+    {el.isOpen ?<motion.div
+     initial  = {{y : 50 , }}
+    animate = {{y   : 0  ,}}
+    transition = {{duration : 0.5 , ease : 'easeInOut'}}
+exit ={{y : 50, opacity : 0}}
+    className=" pl-3 mt-1 flex gap-2 overflow-x-scroll scrollbar-hide scroll-smooth scroll-snap-x">
       
 
   
@@ -57,7 +66,7 @@ navigate('/Models' , {state : { index : index}})
           className={`w-[40vw] ${el.isOpen ? 'opacity-100 translate-y-[0px]  ':'opacity-0 pointer-events-none  translate-y-[100px]'} duration-500`}
           src={el.allImages[0]}
           alt=""
-        />
+        /> 
            
            <img
            // Make sure this is unique
@@ -79,7 +88,7 @@ navigate('/Models' , {state : { index : index}})
           alt=""
         />
    
-    </div>
+    </motion.div>: null}</AnimatePresence>
     <div className='text-right pr-2 mt-1'>
      <h5 className={`duration-500 ${el.isOpen ? 'opacity-100':'opacity-0'}`}>{el.id}</h5>
       
@@ -88,6 +97,13 @@ navigate('/Models' , {state : { index : index}})
   
     </motion.div>
 })}
+
+<div className='flex w-full justify-between items-start px-2 pt-2 mt-5'>
+  <div className='flex flex-col-reverse gap-2'>
+  <p className='w-[85%]'>All the Models are professional and shoot their images with a parfect  manner.</p> 
+<h4 className='font-[inter-medium] text-[3.5vw] tracking-tight'>( All Models )</h4>
+  </div>
+  <button className='px-4 py-2 border rounded-full w-fit h-fit border-black'>tap</button></div>
     </div>
   )
 }

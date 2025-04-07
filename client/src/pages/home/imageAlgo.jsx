@@ -19,8 +19,10 @@ index === i?{...el , isOpen : !el.isOpen}:el))
   }
   return (
     <div className=''>
+{/* <h4 className='fixed top-10 right-[20vw]  font-[inter-medium] tracking-tight text-[4vw]'>( Selected )</h4> */}
+<div className='w-screen h-screen'></div>
       {images.map((el , i)=>{
-        return <motion.div
+        return el.isSelected ? <motion.div
         initial = {{opacity : 0 , y  : 50}}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{duration : 0.5 , ease : 'easeInOut'}}
@@ -54,7 +56,9 @@ index === i?{...el , isOpen : !el.isOpen}:el))
             </div>
             <div className='flex justify-between  '>
 
-            <h5 className=''>( Model )</h5>
+            <button onClick={()=>{navigate('/Models',{
+              state : { index : i}
+            })}} className='w-fit h-fit border rounded-full  px-3 py-1 border-black'>Explore</button>
             <div className='relative scale-[0.7] '>
                   <img className='w-[17vw] ' src={achivment1} alt="" />
                   <h2 className='absolute top-[2vw] left-[5vw]'>3y</h2>
@@ -65,7 +69,7 @@ index === i?{...el , isOpen : !el.isOpen}:el))
          <img
         
          src={el.captures[1]} alt=""  onClick={()=>{imgInc(i) , console.log(el.isOpen)}} className={`duration-500 ${!el.isOpen ? 'w-[100%]':'w-[36%]'}`}/></div> 
-        </motion.div>
+        </motion.div>:null 
       })}
     </div>
   )

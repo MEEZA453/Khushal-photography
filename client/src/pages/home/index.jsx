@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import ImageAlgo from './imageAlgo.jsx'
-
+import Footer from '../../component/footer/footer.jsx'
 import Hero from '../hero/hero.jsx'
 import Menu from '../../component/menu.jsx'
 import Navber from '../../component/navber/navber.jsx'
@@ -44,14 +44,15 @@ function Index() {
       <div className={`transition-all duration-500 `}>
         <div>
           {toggle 
-            ? <ListImage images={images} setImages={setImages} /> 
-            : <ImageAlgo images={images} setImages={setImages} />
+            ? <ListImage /> 
+            : <ImageAlgo />
           }
         </div>
       </div>
         <div className="fixed top-[90%] z-[50] right-[43%]">
           <ViewToggle visibility={visibility} toggle={toggle} setToggle={setToggle} />
         </div>
+        <Footer/>
     </div>
   )
 }

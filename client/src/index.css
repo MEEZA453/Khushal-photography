@@ -53,18 +53,35 @@
        
 
     }
+    button {
+        font-family : 'inter-medium' ;
+        font-size : 4vw ;
+        letter-spacing: -0.1vw;
+        line-height : 3.3vw;
+        color : black ;
+       
+       
+    }
     h2 {
         font-family : 'apple-garamond-italic';
         font-size : 8.5vw;
         letter-spacing  : -0.2vw;
-        line-height : 2.9vh;
+        line-height : 10vw;
+        color : black ;
+        opacity : 80%;
+    }
+    h1{
+        font-family : 'apple-garamond-italic';
+        font-size :10vw;
+        letter-spacing  : -0.2vw;
+        line-height : 10vw;
         color : black ;
         opacity : 80%;
     }
     p{
-      font-family : 'inter-medium' ;
-      font-size : 16px ;
-      line-height : 1.7vh;
+      font-family : 'inter-regular' ;
+      font-size : 3.5vw ;
+      line-height : 3.3vw;
       color : black ; 
       opacity : 70%   
 
