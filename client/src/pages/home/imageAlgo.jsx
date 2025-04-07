@@ -1,12 +1,14 @@
-import React from 'react'
+import React , {useEffect , useState} from 'react'
 import {motion} from 'framer-motion'
 import { useNavigate } from 'react-router-dom'
 import { GoArrowUpRight } from "react-icons/go";
 import achivment1 from '../../assets/logo/achivment1.png' 
 import { useImageContext } from '../../context/imageProvider';
+import Tooltip from '../../component/toolTip';
 
 function ImageAlgo() {
   const {images , setImages } = useImageContext()
+
   
 const navigate = useNavigate()
   
@@ -17,10 +19,11 @@ index === i?{...el , isOpen : !el.isOpen}:el))
     )
 
   }
+
   return (
     <div className=''>
-{/* <h4 className='fixed top-10 right-[20vw]  font-[inter-medium] tracking-tight text-[4vw]'>( Selected )</h4> */}
-<div className='w-screen h-screen'></div>
+
+
       {images.map((el , i)=>{
         return el.isSelected ? <motion.div
         initial = {{opacity : 0 , y  : 50}}

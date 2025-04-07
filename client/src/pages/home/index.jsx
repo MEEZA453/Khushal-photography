@@ -8,9 +8,12 @@ import ViewToggle from '../../component/button/viewToggle.jsx'
 import ListImage from '../../component/imageViewer/listImage.jsx'
 import { AnimatePresence } from 'framer-motion'
 import {useImageContext} from '../../context/imageProvider.jsx'
+import Tooltip from '../../component/toolTip.jsx'
 function Index() {
   const [visibility, setVisibility] = useState(false)
   const {images , setImages } = useImageContext()
+  const [opacity, setOpacity] = useState(0);
+
 
   const [toggle, setToggle] = useState(false)
   const [isMenuShown , setIsMenuShown] = useState(false)
@@ -27,11 +30,24 @@ function Index() {
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
 
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollY = window.scrollY;
+      setOpacity(scrollY);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
     <div>
       <div className="sticky top-0 z-[999]">
         <Navber  isMenuShown = {isMenuShown} setIsMenuShown ={setIsMenuShown} />
       </div>
+      <div style={{ opacity: Math.max(1 - scrollY / 100, 0) }} className='w-screen tooltipWrapper z-0 h-[90vh] content-center justify-center'>
+  <Tooltip/>
+</div>
       <AnimatePresence mode='wait'>
       {isMenuShown ?<div className='fixed top-0 z-[100] duration-700'>
       <Menu setIsShown = {setIsMenuShown}/></div>:null}

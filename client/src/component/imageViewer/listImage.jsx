@@ -13,9 +13,7 @@ const navigate = useNavigate()
  const handleOnClick = (index)=>{
 navigate('/Models' , {state : { index : index}})
  }
- useEffect(() => {
-  window.scrollTo(0, 0); // scrolls to top
-}, []);
+
  const handleIsOpen = (index)=>{
   console.log('clicked')
   setIsVisible(true)
@@ -50,7 +48,7 @@ navigate('/Models' , {state : { index : index}})
       
       
     </div> 
-    <AnimatePresence>
+    <AnimatePresence mode='wait'>
     {el.isOpen ?<motion.div
      initial  = {{y : 50 , }}
     animate = {{y   : 0  ,}}
@@ -88,7 +86,7 @@ exit ={{y : 50, opacity : 0}}
           alt=""
         />
    
-    </motion.div>: null}</AnimatePresence>
+    </motion.div>: null}</AnimatePresence >
     <div className='text-right pr-2 mt-1'>
      <h5 className={`duration-500 ${el.isOpen ? 'opacity-100':'opacity-0'}`}>{el.id}</h5>
       

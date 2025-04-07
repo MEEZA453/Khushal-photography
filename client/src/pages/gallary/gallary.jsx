@@ -22,10 +22,16 @@ function Gallary() {
       
  {images.map((el ,i)=>{
  return  el.allImages.map((img , j)=>{
- return <div className={`flex gap-2`}>
+ return <motion.div 
+ initial={{ opacity: 0, y: 50 }}
+ animate = {{ opacity: 1, y: 0}}
+ whileInView={{ opacity: 1, y: 0 }}
+ transition={{ duration: 0.5, ease: "easeInOut", delay : 0.01*j }}
+ viewport={{ once: true, amount: 0.3  }}
+ className={`flex gap-2`}>
     <h5 className='opacity-50'>{j}</h5>
     <img className='' loading='lazy' src={img} alt="" />
-  </div>
+  </motion.div>
   })
  
 })}
