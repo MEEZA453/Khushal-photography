@@ -5,6 +5,7 @@ import { GoArrowUpRight } from "react-icons/go";
 import achivment1 from '../../assets/logo/achivment1.png' 
 import { useImageContext } from '../../context/imageProvider';
 import Tooltip from '../../component/toolTip';
+import fashionLogo from '../../assets/logo/213.png'
 
 function ImageAlgo() {
   const {images , setImages } = useImageContext()
@@ -62,10 +63,12 @@ index === i?{...el , isOpen : !el.isOpen}:el))
             <button onClick={()=>{navigate('/Models',{
               state : { index : i}
             })}} className='w-fit h-fit border rounded-full  px-3 py-1 border-black'>Explore</button>
-            <div className='relative scale-[0.7] '>
-                  <img className='w-[17vw] ' src={achivment1} alt="" />
-                  <h2 className='absolute top-[2vw] left-[5vw]'>3y</h2>
-                </div>
+            <div className='flex gap-1'>
+
+              <h4>(Fashion Model )</h4>
+              {/* <GoArrowUpRight size={30} className='rotate-'/> */}
+     
+            </div>
             </div>
           </div>
          </div>

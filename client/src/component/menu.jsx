@@ -31,6 +31,12 @@ function Menu() {
       transition={{ duration: 0.5, ease: 'easeInOut' }}
       className='h-screen w-screen bg-white bg-opacity-70 px-4'
     >
+
+      <div className='gap-1 flex absolute top-3 opacity-60 left-[22vw]'>
+       <h5>crafted in </h5>
+       <h4 className='font-[inter-bold]'>code1 studio</h4>
+       <h4>by meeza™</h4>
+        </div>
       <button
         onClick={handleCopy}
         className='bg-white text-[4.5vw] absolute bottom-24 left-1/2 -translate-x-[15vw] font-[inter-medium] tracking-tighter border rounded-full h-fit w-fit py-2 px-3'

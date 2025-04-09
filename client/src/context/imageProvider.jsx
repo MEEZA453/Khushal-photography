@@ -43,7 +43,7 @@ export const ImageProvider = ({ children }) => {
           captures: [marina1, marina2],
           isOpen: false, isSelected : true,
           allImages: [
-            marina1 ,marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13
+         marina9 , marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13
           ],
           about: 'A versetle model who loves to flex her fashion in a mystirious and cool way.'
         }, {
@@ -52,7 +52,7 @@ export const ImageProvider = ({ children }) => {
           captures: [marina1, marina2],
           isOpen: false, isSelected : true,
           allImages: [
-            marina1 ,marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13
+         marina9 , marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13
           ],
           about: 'A versetle model who loves to flex her fashion in a mystirious and cool way.'
         }, {
@@ -61,7 +61,7 @@ export const ImageProvider = ({ children }) => {
           captures: [marina1, marina2],
           isOpen: false, isSelected : true,
           allImages: [
-            marina1 ,marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13
+         marina9 , marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13
           ],
           about: 'A versetle model who loves to flex her fashion in a mystirious and cool way.'
         }, {
@@ -70,7 +70,7 @@ export const ImageProvider = ({ children }) => {
           captures: [marina1, marina2],
           isOpen: false, isSelected : false,
           allImages: [
-            marina1 ,marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13
+         marina9 , marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13
           ],
           about: 'A versetle model who loves to flex her fashion in a mystirious and cool way.'
         }, {
@@ -88,7 +88,7 @@ export const ImageProvider = ({ children }) => {
           captures: [marina1, marina2],
           isOpen: false, isSelected : false,
           allImages: [
-            marina1 ,marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13
+         marina9 , marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13
           ],
           about: 'A versetle model who loves to flex her fashion in a mystirious and cool way.'
         }, {
@@ -97,7 +97,7 @@ export const ImageProvider = ({ children }) => {
           captures: [marina1, marina2],
           isOpen: false, isSelected : false,
           allImages: [
-            marina1 ,marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13
+            marina9 , marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13
           ],
           about: 'A versetle model who loves to flex her fashion in a mystirious and cool way.'
         }, {
@@ -106,7 +106,7 @@ export const ImageProvider = ({ children }) => {
           captures: [marina1, marina2],
           isOpen: false, isSelected : false,
           allImages: [
-            marina1 ,marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13
+             marina9 , marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13
           ],
           about: 'A versetle model who loves to flex her fashion in a mystirious and cool way.'
         }, {
@@ -118,152 +118,154 @@ export const ImageProvider = ({ children }) => {
             marina1 ,marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13
           ],
           about: 'A versetle model who loves to flex her fashion in a mystirious and cool way.'
-        }, {
-          modelName: 'Kristina',
-          id: '@nesterenk0.k',
-          captures: [marina1, marina2],
-          isOpen: false, isSelected : false,
-          allImages: [
-            marina1 ,marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13
-          ],
-          about: 'A versetle model who loves to flex her fashion in a mystirious and cool way.'
-        }, {
-          modelName: 'Rose',
-          id: '@itsedinrose',
-          captures: [marina1, marina2],
-          isOpen: false, isSelected : false,
-          allImages: [
-            marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13
-          ],
-          about: 'A versetle model who loves to flex her fashion in a mystirious and cool way.'
-        }, {
-          modelName: 'Chaika',
-          id: '@lilychaika',
-          captures: [marina1, marina2],
-          isOpen: false, isSelected : false,
-          allImages: [
-            marina1 ,marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13
-          ],
-          about: 'A versetle model who loves to flex her fashion in a mystirious and cool way.'
-        },
-         {
-          modelName: 'Komal',
-          id: '@marianaacortes',
-          captures: [marina1, marina2],
-          isOpen: false, isSelected : false,
-          allImages: [
-            marina1 ,marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13
-          ],
-          about: 'A versetle model who loves to flex her fashion in a mystirious and cool way.'
-        }, {
-          modelName: 'Ayushi',
-          id: '@marianaacortes',
-          captures: [marina1, marina2],
-          isOpen: false, isSelected : false,
-          allImages: [
-            marina1 ,marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13
-          ],
-          about: 'A versetle model who loves to flex her fashion in a mystirious and cool way.'
-        }, {
-          modelName: 'Madmin',
-          id: '@marianaacortes',
-          captures: [marina1, marina2],
-          isOpen: false, isSelected : false,
-          allImages: [
-            marina1 ,marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13
-          ],
-          about: 'A versetle model who loves to flex her fashion in a mystirious and cool way.'
-        }, {
-          modelName: 'Laura',
-          id: '@marianaacortes',
-          captures: [marina1, marina2],
-          isOpen: false, isSelected : false,
-          allImages: [
-            marina1 ,marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13
-          ],
-          about: 'A versetle model who loves to flex her fashion in a mystirious and cool way.'
-        }, {
-          modelName: 'Jyoti',
-          id: '@ShivJyoti',
-          captures: [marina1, marina2],
-          isOpen: false, isSelected : false,
-          allImages: [
-            marina1 ,marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13
-          ],
-          about: 'A versetle model who loves to flex her fashion in a mystirious and cool way.'
-        }, {
-          modelName: 'Pannikova',
-          id: '@pannik_at_retouch',
-          captures: [marina1, marina2],
-          isOpen: false, isSelected : false,
-          allImages: [
-            marina1 ,marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13
-          ],
-          about: 'A versetle model who loves to flex her fashion in a mystirious and cool way.'
-        }, {
-          modelName: 'Giorgia ',
-          id: '@marianaacortes',
-          captures: [marina1, marina2],
-          isOpen: false, isSelected : false,
-          allImages: [
-            marina1 ,marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13
-          ],
-          about: 'A versetle model who loves to flex her fashion in a mystirious and cool way.'
-        }, {
-          modelName: 'Sakshi',
-          id: '@sakshimalikk',
-          captures: [marina1, marina2],
-          isOpen: false, isSelected : false,
-          allImages: [
-            marina1 ,marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13
-          ],
-          about: 'A versetle model who loves to flex her fashion in a mystirious and cool way.'
-        }, {
-          modelName: 'Monika',
-          id: '@realmonikachoudhary',
-          captures: [marina1, marina2],
-          isOpen: false, isSelected : false,
-          allImages: [
-            marina1 ,marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13
-          ],
-          about: 'A versetle model who loves to flex her fashion in a mystirious and cool way.'
-        }, {
-          modelName: 'Nas',
-          id: '@nastii1777',
-          captures: [marina1, marina2],
-          isOpen: false, isSelected : false,
-          allImages: [
-            marina1 ,marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13
-          ],
-          about: 'A versetle model who loves to flex her fashion in a mystirious and cool way.'
-        }, {
-          modelName: 'Kristina',
-          id: '@nesterenk0.k',
-          captures: [marina1, marina2],
-          isOpen: false, isSelected : false,
-          allImages: [
-            marina1 ,marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13
-          ],
-          about: 'A versetle model who loves to flex her fashion in a mystirious and cool way.'
-        }, {
-          modelName: 'Rose',
-          id: '@itsedinrose',
-          captures: [marina1, marina2],
-          isOpen: false, isSelected : false,
-          allImages: [
-            marina1 ,marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13
-          ],
-          about: 'A versetle model who loves to flex her fashion in a mystirious and cool way.'
-        }, {
-          modelName: 'Chaika',
-          id: '@lilychaika',
-          captures: [marina1, marina2],
-          isOpen: false, isSelected : false,
-          allImages: [
-            marina1 ,marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13
-          ],
-          about: 'A versetle model who loves to flex her fashion in a mystirious and cool way.'
-        },
+        }
+        // 
+        // , {
+        //   modelName: 'Kristina',
+        //   id: '@nesterenk0.k',
+        //   captures: [marina1, marina2],
+        //   isOpen: false, isSelected : false,
+        //   allImages: [
+        //     marina1 ,marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13
+        //   ],
+        //   about: 'A versetle model who loves to flex her fashion in a mystirious and cool way.'
+        // }, {
+        //   modelName: 'Rose',
+        //   id: '@itsedinrose',
+        //   captures: [marina1, marina2],
+        //   isOpen: false, isSelected : false,
+        //   allImages: [
+        //     marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13
+        //   ],
+        //   about: 'A versetle model who loves to flex her fashion in a mystirious and cool way.'
+        // }, {
+        //   modelName: 'Chaika',
+        //   id: '@lilychaika',
+        //   captures: [marina1, marina2],
+        //   isOpen: false, isSelected : false,
+        //   allImages: [
+        //     marina1 ,marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13
+        //   ],
+        //   about: 'A versetle model who loves to flex her fashion in a mystirious and cool way.'
+        // },
+        //  {
+        //   modelName: 'Komal',
+        //   id: '@marianaacortes',
+        //   captures: [marina1, marina2],
+        //   isOpen: false, isSelected : false,
+        //   allImages: [
+        //     marina1 ,marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13
+        //   ],
+        //   about: 'A versetle model who loves to flex her fashion in a mystirious and cool way.'
+        // }, {
+        //   modelName: 'Ayushi',
+        //   id: '@marianaacortes',
+        //   captures: [marina1, marina2],
+        //   isOpen: false, isSelected : false,
+        //   allImages: [
+        //     marina1 ,marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13
+        //   ],
+        //   about: 'A versetle model who loves to flex her fashion in a mystirious and cool way.'
+        // }, {
+        //   modelName: 'Madmin',
+        //   id: '@marianaacortes',
+        //   captures: [marina1, marina2],
+        //   isOpen: false, isSelected : false,
+        //   allImages: [
+        //     marina1 ,marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13
+        //   ],
+        //   about: 'A versetle model who loves to flex her fashion in a mystirious and cool way.'
+        // }, {
+        //   modelName: 'Laura',
+        //   id: '@marianaacortes',
+        //   captures: [marina1, marina2],
+        //   isOpen: false, isSelected : false,
+        //   allImages: [
+        //     marina1 ,marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13
+        //   ],
+        //   about: 'A versetle model who loves to flex her fashion in a mystirious and cool way.'
+        // }, {
+        //   modelName: 'Jyoti',
+        //   id: '@ShivJyoti',
+        //   captures: [marina1, marina2],
+        //   isOpen: false, isSelected : false,
+        //   allImages: [
+        //     marina1 ,marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13
+        //   ],
+        //   about: 'A versetle model who loves to flex her fashion in a mystirious and cool way.'
+        // }, {
+        //   modelName: 'Pannikova',
+        //   id: '@pannik_at_retouch',
+        //   captures: [marina1, marina2],
+        //   isOpen: false, isSelected : false,
+        //   allImages: [
+        //     marina1 ,marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13
+        //   ],
+        //   about: 'A versetle model who loves to flex her fashion in a mystirious and cool way.'
+        // }, {
+        //   modelName: 'Giorgia ',
+        //   id: '@marianaacortes',
+        //   captures: [marina1, marina2],
+        //   isOpen: false, isSelected : false,
+        //   allImages: [
+        //     marina1 ,marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13
+        //   ],
+        //   about: 'A versetle model who loves to flex her fashion in a mystirious and cool way.'
+        // }, {
+        //   modelName: 'Sakshi',
+        //   id: '@sakshimalikk',
+        //   captures: [marina1, marina2],
+        //   isOpen: false, isSelected : false,
+        //   allImages: [
+        //     marina1 ,marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13
+        //   ],
+        //   about: 'A versetle model who loves to flex her fashion in a mystirious and cool way.'
+        // }, {
+        //   modelName: 'Monika',
+        //   id: '@realmonikachoudhary',
+        //   captures: [marina1, marina2],
+        //   isOpen: false, isSelected : false,
+        //   allImages: [
+        //     marina1 ,marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13
+        //   ],
+        //   about: 'A versetle model who loves to flex her fashion in a mystirious and cool way.'
+        // }, {
+        //   modelName: 'Nas',
+        //   id: '@nastii1777',
+        //   captures: [marina1, marina2],
+        //   isOpen: false, isSelected : false,
+        //   allImages: [
+        //     marina1 ,marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13
+        //   ],
+        //   about: 'A versetle model who loves to flex her fashion in a mystirious and cool way.'
+        // }, {
+        //   modelName: 'Kristina',
+        //   id: '@nesterenk0.k',
+        //   captures: [marina1, marina2],
+        //   isOpen: false, isSelected : false,
+        //   allImages: [
+        //     marina1 ,marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13
+        //   ],
+        //   about: 'A versetle model who loves to flex her fashion in a mystirious and cool way.'
+        // }, {
+        //   modelName: 'Rose',
+        //   id: '@itsedinrose',
+        //   captures: [marina1, marina2],
+        //   isOpen: false, isSelected : false,
+        //   allImages: [
+        //     marina1 ,marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13
+        //   ],
+        //   about: 'A versetle model who loves to flex her fashion in a mystirious and cool way.'
+        // }, {
+        //   modelName: 'Chaika',
+        //   id: '@lilychaika',
+        //   captures: [marina1, marina2],
+        //   isOpen: false, isSelected : false,
+        //   allImages: [
+        //     marina1 ,marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13 , marina1 , marina2 , marina3 , marina4 , marina5, marina6, marina7, marina8 , marina9 , marina10 , marina11 , marina12 , marina13
+        //   ],
+        //   about: 'A versetle model who loves to flex her fashion in a mystirious and cool way.'
+        // },
        
       ])
 

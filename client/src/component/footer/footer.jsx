@@ -4,7 +4,7 @@ import { GoArrowUpRight } from "react-icons/go";
 function Footer() {
   return (
     <div>
-      <div className='w-full p-2 mt-[5vh] justify-between flex'>
+      <div className='w-full p-2 mt-[5vh] justify-between  flex'>
         <div className='mb-2 flex flex-col gap-5'>
           <h4 className='font-[inter-medium] tracking-tight'>Want a shoot?</h4>
 

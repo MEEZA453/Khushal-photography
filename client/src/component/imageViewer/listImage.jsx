@@ -6,7 +6,8 @@ import {motion , AnimatePresence} from 'framer-motion'
 import { useState } from 'react';
 import { useImageContext } from '../../context/imageProvider';
 function listImage() {
-    const {images , setImages } = useImageContext()
+
+    const {images , setImages } = useImageContext();
   
 let [isvisible , setIsVisible] = useState(false)
 const navigate = useNavigate()

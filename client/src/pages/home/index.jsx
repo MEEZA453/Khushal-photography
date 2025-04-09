@@ -41,13 +41,14 @@ function Index() {
   }, []);
 
   return (
-    <div>
-      <div className="sticky top-0 z-[999]">
+    <div className='min-h-screen'>
+      <div className="sticky top-0 z-[900]">
         <Navber  isMenuShown = {isMenuShown} setIsMenuShown ={setIsMenuShown} />
       </div>
-      <div style={{ opacity: Math.max(1 - scrollY / 100, 0) }} className='w-screen tooltipWrapper z-0 h-[90vh] content-center justify-center'>
-  <Tooltip/>
-</div>
+      {/* <div style={{ opacity: Math.max(1 - scrollY / 100, 0) }} className='w-screen  tooltipWrapper -translate-y-24 h-[90vh] content-center justify-center'>
+     <Hero/>
+     
+</div> */}
       <AnimatePresence mode='wait'>
       {isMenuShown ?<div className='fixed top-0 z-[100] duration-700'>
       <Menu setIsShown = {setIsMenuShown}/></div>:null}
@@ -68,7 +69,10 @@ function Index() {
         <div className="fixed top-[90%] z-[50] right-[43%]">
           <ViewToggle visibility={visibility} toggle={toggle} setToggle={setToggle} />
         </div>
+        <div className=''>
+
         <Footer/>
+        </div>
     </div>
   )
 }
