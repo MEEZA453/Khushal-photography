@@ -67,13 +67,14 @@
        
     }
     h2 {
-        font-family : 'apple-garamond-italic';
-        font-size : 8.5vw;
-        letter-spacing  : -0.2vw;
-        line-height : 10vw;
-        color : black ;
-        opacity : 80%;
-    }
+        font-family: 'apple-garamond-italic';
+        font-size: 8.5vw;
+        letter-spacing: -0.2vw;
+        line-height: 10vw;
+        color: black;
+        opacity: 80%;
+      
+      }
     h1{
         font-family : 'apple-garamond-italic';
         font-size :10vw;

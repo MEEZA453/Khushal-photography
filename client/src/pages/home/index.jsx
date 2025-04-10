@@ -69,7 +69,7 @@ function Index() {
         <div className="fixed top-[90%] z-[50] right-[43%]">
           <ViewToggle visibility={visibility} toggle={toggle} setToggle={setToggle} />
         </div>
-        <div className=''>
+        <div className={toggle ? 'absolute w-full bottom-0' :null}>
 
         <Footer/>
         </div>

@@ -7,12 +7,13 @@ import ModelSelector from './modelSelector.jsx'
 import ImageSelector from './imageSelector.jsx'
 import Hero from '../pages/hero/hero.jsx'
 import { useImageContext } from '../context/imageProvider.jsx'
+import ImageOpener from './imageOpener.jsx'
 
 function Model() {
         
   
   const {images , setImages } = useImageContext()
-    
+    const [selectedImage , setSelectedImage] = useState(null)
   
   const location = useLocation()
   const  allImages  = images
@@ -39,7 +40,7 @@ console.log(foundedModel)
        <ImageSelector imageRefs={imageRefs} foundedModel={foundedModel} setSelectedIndex={setSelectedIndex} selectedIndex={selectedIndex}/>
 </div>
 
-        <div className={`overflow-y-scroll z-50 h-screen model-image grid gap-2 pl-2 ${toggle ? 'grid-cols-2 p-[0vw]' : 'grid-col-1'} w-full`}>
+        <div className={`overflow-y-scroll z-50 h-screen model-image grid gap-16 pl-2 ${toggle ? 'grid-cols-2 p-[0vw]' : 'grid-col-1'} w-full`}>
           {foundedModel.map((el, i) =>
             el.allImages.map((img, j) => (
               <motion.div
@@ -52,7 +53,7 @@ console.log(foundedModel)
                 transition={{ duration: 0.5, ease: "easeInOut" }}
                 viewport={{ once: true, amount: 0.3 }}
               >
-                <img loading="lazy" src={img} alt="" />
+                <img loading="lazy" onClick={()=>{setSelectedImage(img)}} className={`object-cover object-top  ${toggle ? 'h-[30vw]':'h-[50vw]'}`} src={img} alt="" />
               </motion.div>
             ))
           )}
@@ -62,6 +63,7 @@ console.log(foundedModel)
       <div className="fixed top-[90%] right-[43%] z-[100]">
         <ViewToggle toggle={toggle} setToggle={setToggle} />
       </div>
+      <ImageOpener selectedImage={selectedImage} setSelectedImage={setSelectedImage}/>
     </motion.div>
   )
 }

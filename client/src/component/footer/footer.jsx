@@ -9,7 +9,7 @@ function Footer() {
           <h4 className='font-[inter-medium] tracking-tight'>Want a shoot?</h4>
 
         
-          <a href="mailto:meejanursk@gmail.com" className='w-fit'>
+          <a href="mailto:khushalchouhan48@gmail.com" className='w-fit'>
             <h2 className='text-[20vw] tracking-[-1.8vw] hover:underline transition-all duration-300'>
               Let &apos;s talk
             </h2>

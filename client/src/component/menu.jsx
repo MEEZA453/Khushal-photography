@@ -14,7 +14,7 @@ function Menu() {
   ]);
 
   const [copied, setCopied] = useState(false);
-  const email = "khushal@gmail.com"; // replace with your actual email
+  const email = "khushalchouhan48@gmail.com"; // replace with your actual email
 
   const handleCopy = () => {
     navigator.clipboard.writeText(email).then(() => {
@@ -33,9 +33,9 @@ function Menu() {
     >
 
       <div className='gap-1 flex absolute top-3 opacity-60 left-[22vw]'>
-       <h5>crafted in </h5>
+       <h5>Crafted in </h5>
        <h4 className='font-[inter-bold]'>code1 studio</h4>
-       <h4>by meeza™</h4>
+       <h5>by meeza™</h5>
         </div>
       <button
         onClick={handleCopy}

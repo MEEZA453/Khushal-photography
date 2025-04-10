@@ -1,7 +1,8 @@
-import React from 'react'
+import React ,{useState} from 'react'
 
 function imageSelector({ imageRefs , selectedIndex , setSelectedIndex , foundedModel}) {
-
+ let [imageLength , setImageLength] = useState(0)
+console.log(imageLength)
 
     const handleIndexClick = (j , imageRefs , setSelectedIndex) => {
         if (imageRefs.current[j]) {
@@ -9,9 +10,8 @@ function imageSelector({ imageRefs , selectedIndex , setSelectedIndex , foundedM
           setSelectedIndex(j)
         }
       }
-    
   return (
-    <div className="flex h-screen flex-col justify-between p-1">
+    <div className={`flex h-screen flex-col   ${foundedModel?.allImages?.length > 30 ?'justify-between':'gap-3 overflow-y-scroll'} p-1`}>
           {foundedModel.map((el, i) =>
             el.allImages.map((img, j) => (
               <h4

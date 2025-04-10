@@ -62,28 +62,28 @@ exit ={{y : 50, opacity : 0}}
    
         <img
            // Make sure this is unique
-          className={`w-[40vw] ${el.isOpen ? 'opacity-100 translate-y-[0px]  ':'opacity-0 pointer-events-none  translate-y-[100px]'} duration-500`}
-          src={el.allImages[0]}
+          className={`w-[50vw] h-[50vw] object-cover object-top ${el.isOpen ? 'opacity-100 translate-y-[0px]  ':'opacity-0 pointer-events-none  translate-y-[100px]'} duration-500`}
+          src={el.captures[0]}
           alt=""
         /> 
            
            <img
            // Make sure this is unique
-          className={`w-[40vw] ${el.isOpen ? 'opacity-100 translate-y-[0px]  ':'opacity-0 pointer-events-none  translate-y-[100px]'} duration-500`}
-          src={el.allImages[1]}
+          className={`w-[50vw] h-[50vw] object-cover object-top ${el.isOpen ? 'opacity-100 translate-y-[0px]  ':'opacity-0 pointer-events-none  translate-y-[100px]'} duration-500`}
+          src={el.captures[1]}
           alt=""
         />
            
            <img
            // Make sure this is unique
-          className={`w-[40vw] ${el.isOpen ? 'opacity-100 translate-y-[0px]  ':'opacity-0 pointer-events-none  translate-y-[100px]'} duration-500`}
-          src={el.allImages[2]}
+          className={`w-[50vw] h-[50vw] object-cover object-top ${el.isOpen ? 'opacity-100 translate-y-[0px]  ':'opacity-0 pointer-events-none  translate-y-[100px]'} duration-500`}
+          src={el.captures[2]}
           alt=""
         />   
         <img
            // Make sure this is unique
-          className={`w-[40vw] ${el.isOpen ? 'opacity-100 translate-y-[0px]  ':'opacity-0 pointer-events-none  translate-y-[100px]'} duration-500`}
-          src={el.allImages[3]}
+          className={`w-[50vw] h-[50vw] object-cover object-top ${el.isOpen ? 'opacity-100 translate-y-[0px]  ':'opacity-0 pointer-events-none  translate-y-[100px]'} duration-500`}
+          src={el.captures[3]}
           alt=""
         />
    
@@ -99,8 +99,8 @@ exit ={{y : 50, opacity : 0}}
 
 <div className='flex w-full justify-between items-start px-2 pt-2 mt-5'>
   <div className='flex flex-col-reverse gap-2'>
-  <p className='w-[85%]'>All the Models are professional and shoot their images with a parfect  manner.</p> 
-<h4 className='font-[inter-medium] text-[3.5vw] tracking-tight'>( All Models )</h4>
+  <p className='w-[85%]'>A dynamic soul blending fashion, tradition, and nature with mystery and style.”</p> 
+<h4 className='font-[inter-medium] text-[3.5vw] tracking-tight'>( All Catalogue )</h4>
   </div>
   <button className='px-4 py-2 border rounded-full w-fit h-fit border-black'>tap</button></div>
     </div>

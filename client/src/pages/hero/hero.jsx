@@ -19,7 +19,7 @@ function Hero() {
         className='absolute top-0 left-0 h-full w-full bg-white z-[10]'
         style={{ opacity: overlayOpacity }}
       />
-
+<h4 className=''></h4>
       {/* Background Video with scroll blur */}
       <motion.video
         src={video}
