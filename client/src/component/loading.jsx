@@ -16,6 +16,7 @@ const Loader = () => {
  {words.map((el , i)=>{
  return < motion.h1 
  className='font-[inter-medium] text-[2vh]'
+ key={i}
 initial = {{opacity : 0}}
 animate = {{opacity : 1}}
 transition={{duration : 3 , delay : 0.3 * i}}>{el}</ motion.h1>
