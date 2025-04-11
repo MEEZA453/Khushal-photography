@@ -3,7 +3,7 @@ import { useImageContext } from '../../context/imageProvider';
 import { motion, AnimatePresence } from 'framer-motion';
 import Menu from '../../component/menu.jsx';
 import Navber from '../../component/navber/navber.jsx';
-import ImageOpener from '../../component/ImageOpener.jsx';
+import ImageOpener from '../../component/imageOpener.jsx'
 
 function Gallary() {
   const { images } = useImageContext();
