@@ -8,7 +8,7 @@ import { ImageProvider } from './context/imageProvider.jsx';
 
 import Menu from './component/menu.jsx';
 import Gallary from "./pages/gallary/gallary.jsx";
-import Loading from "./component/Loading.jsx";
+import Loading from "./component/loading.jsx";
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
