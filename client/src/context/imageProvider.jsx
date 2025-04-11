@@ -542,9 +542,9 @@ export const ImageProvider = ({ children }) => {
           
           about: 'A fearless muse owning every frame with bold elegance and timeless grace.'
         }, {
-          modelName: 'Beachs',
+          modelName: 'Beach',
           id: 'Model-photoshoot',
-          captures: [ Beach30, Beach32 , Beach37 , Beach39],
+          captures: [ Beach43, Beach42,  , Beach37 , Beach39],
           isOpen: false, isSelected : true,
           allImages: allImages ,
           about: 'A sun-kissed soul who slays the shore with effortless vibe and golden allure.'
@@ -552,7 +552,7 @@ export const ImageProvider = ({ children }) => {
         {
           modelName: 'Outdoor',
           id: 'Model-photoshoot',
-          captures: [outDoor22, outDoor24 , outDoor16 , outDoor17],
+          captures: [ outDoor14 ,outDoor11, outDoor16 , outDoor17],
           isOpen: false, isSelected : true,
           allImages: allOutdoorImages ,
           about: 'A wild spirit embracing nature’s backdrop with raw beauty and effortless cool.'
@@ -575,7 +575,7 @@ export const ImageProvider = ({ children }) => {
         {
           modelName: 'Product',
           id: 'Product',
-          captures: [product3 ,product4 , product6 ,product7],
+          captures: [product14 ,product11 , product6 ,product7],
           isOpen: false, isSelected : true,
           allImages: productImages ,
           about: 'A stylish eye who turns everyday products into icons with vibe and vision.'
