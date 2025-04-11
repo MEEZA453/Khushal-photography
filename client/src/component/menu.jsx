@@ -9,7 +9,7 @@ function Menu() {
   const [menu] = useState([
     { name: 'Index', path: '/' },
     { name: 'Gallary', path: '/Gallary' },
-    { name: 'Models', path: '/Models' },
+    { name: 'Works', path: '/Models' },
     { name: 'About', path: '/About' },
   ]);
 
