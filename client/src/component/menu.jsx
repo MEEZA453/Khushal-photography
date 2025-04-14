@@ -14,7 +14,7 @@ function Menu() {
   ]);
 
   const [copied, setCopied] = useState(false);
-  const email = "khushalchouhan48@gmail.com"; // replace with your actual email
+  const email = "meejanursk@gmail.com"; // replace with your actual email
 
   const handleCopy = () => {
     navigator.clipboard.writeText(email).then(() => {

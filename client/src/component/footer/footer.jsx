@@ -6,10 +6,10 @@ function Footer() {
     <div>
       <div className='w-full p-2 mt-[5vh] justify-between  flex'>
         <div className='mb-2 flex flex-col gap-5'>
-          <h4 className='font-[inter-medium] tracking-tight'>Want a shoot?</h4>
+          <h4 className='font-[inter-medium] tracking-tight'>Want a App / Website?</h4>
 
         
-          <a href="mailto:khushalchouhan48@gmail.com" className='w-fit'>
+          <a href="mailto:meejanursk@gmail.com" className='w-fit'>
             <h2 className='text-[20vw] tracking-[-1.8vw] hover:underline transition-all duration-300'>
               Let &apos;s talk
             </h2>

@@ -10,9 +10,7 @@ import { SlFolderAlt, SlVolume1 } from "react-icons/sl";
 import { IoImagesOutline } from "react-icons/io5";
 
 function ImageAlgo() {
-  const {images , setImages } = useImageContext()
-
-  
+  const {images , setImages , imagesLength , setImagesLength } = useImageContext()
 const navigate = useNavigate()
   
   const imgInc = (index)=>{
@@ -65,9 +63,9 @@ index === i?{...el , isOpen : !el.isOpen}:el))
             </div>
             <div className='flex justify-between pr-4  '>
 
-            <button onClick={()=>{navigate('/Models',{
-              state : { index : i}
-            })}} className='w-fit h-fit border rounded-full  px-3 py-1 border-black'>Explore</button>
+            <button onClick={()=>{navigate('/Models' ,{
+              state : { index : i }
+            }) , setImagesLength(el.allImages.length)} } className='w-fit h-fit border rounded-full  px-3 py-1 border-black'>Explore</button>
             <div className='flex gap-1 justify-center items-center opacity-50' >
 
             <IoImagesOutline size={20} />

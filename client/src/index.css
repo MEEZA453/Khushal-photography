@@ -41,6 +41,20 @@
         color : black ; 
 
     }
+    h6{
+        font-family : 'inter-regular' ;
+        font-size : 4.5vw ;
+        line-height : 5.5vw;
+        color : black ; 
+
+    }
+    b{
+        font-family : 'inter-bold' ;
+        font-size : 4.5vw ;
+        line-height : 5.5vw;
+        color : black ; 
+
+    }
     h3{
         font-family : 'inter-regular' ;
         font-size :7vw ;

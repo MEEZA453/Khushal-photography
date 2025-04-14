@@ -11,19 +11,17 @@ import {useImageContext} from '../../context/imageProvider.jsx'
 import Tooltip from '../../component/toolTip.jsx'
 function Index() {
   const [visibility, setVisibility] = useState(false)
-  const {images , setImages } = useImageContext()
+  const {images , setImages ,  imagesLength , setImagesLength  } = useImageContext()
   const [opacity, setOpacity] = useState(0);
-
+ 
 
   const [toggle, setToggle] = useState(false)
   const [isMenuShown , setIsMenuShown] = useState(false)
-
-  // Set visibility to true when scroll starts
+  
   useEffect(() => {
     const handleScroll = () => {
-      // Set visibility true on first scroll
+
       setVisibility(true)
-      // Optionally, you can remove the listener after first scroll:
       window.removeEventListener('scroll', handleScroll)
     }
     window.addEventListener('scroll', handleScroll)
@@ -61,8 +59,9 @@ function Index() {
       <div className={`transition-all duration-500 `}>
         <div>
           {toggle 
-            ? <ListImage /> 
-            : <ImageAlgo />
+            ? <ListImage  /> 
+            : <ImageAlgo imagesLength={imagesLength} setImagesLength={setImagesLength} />
+            
           }
         </div>
       </div>

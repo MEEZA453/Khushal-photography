@@ -12,20 +12,18 @@ import ImageOpener from './imageOpener.jsx'
 function Model() {
         
   
-  const {images , setImages } = useImageContext()
+  const {images , setImages ,  } = useImageContext()
     const [selectedImage , setSelectedImage] = useState(null)
   
   const location = useLocation()
   const  allImages  = images
   console.log(allImages)
-  const { index } = location.state || 0
-  console.log(index)
-  const [toggle, setToggle] = useState(false)
+  const { index , setImagesIndex , imagesIndex } = location.state || 0
+  console.log(setImagesIndex , imagesIndex , index)
+  const [toggle, setToggle] = useState(false) 
   const [modelIndex, setModelIndex] = useState(index?index :0)
   const [selectedIndex , setSelectedIndex] = useState(3)
   const foundedModel = allImages.filter((el, i) => modelIndex === i)
-console.log(foundedModel)
-  // Store refs to images
   const imageRefs = useRef([])
 
 
@@ -34,11 +32,14 @@ console.log(foundedModel)
    
      
       <div className="flex flex-row-reverse ">
-        <ModelSelector coverImage={allImages} modelIndex={modelIndex} setModelIndex={setModelIndex} />
-<div className='z-[100]'> 
+        <ModelSelector imagesRefs = {imageRefs}
+         foundedModel ={foundedModel} 
+         setSelectedIndex = {setSelectedIndex}
+         selectedIndex = {selectedIndex}
+          coverImage={allImages}
+           modelIndex={modelIndex}
+            setModelIndex={setModelIndex} />
 
-       <ImageSelector imageRefs={imageRefs} foundedModel={foundedModel} setSelectedIndex={setSelectedIndex} selectedIndex={selectedIndex}/>
-</div>
 
         <div className={`overflow-y-scroll z-50 h-screen model-image grid gap-16 pl-2 ${toggle ? 'grid-cols-2 p-[0vw]' : 'grid-col-1'} w-full`}>
           {foundedModel.map((el, i) =>
