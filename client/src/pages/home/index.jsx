@@ -9,6 +9,7 @@ import ListImage from '../../component/imageViewer/listImage.jsx'
 import { AnimatePresence } from 'framer-motion'
 import {useImageContext} from '../../context/imageProvider.jsx'
 import Tooltip from '../../component/toolTip.jsx'
+import SwitchToMobile from '../../component/SwitchToMobile.jsx'
 function Index() {
   const [visibility, setVisibility] = useState(false)
   const {images , setImages ,  imagesLength , setImagesLength  } = useImageContext()
@@ -33,27 +34,27 @@ function Index() {
       const scrollY = window.scrollY;
       setOpacity(scrollY);
     };
-
-    window.addEventListener("scroll", handleScroll);
+  window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   return (
-    <div className='min-h-screen'>
+    <div>
+{window.innerWidth > 640 ? <SwitchToMobile/> :   <div className='min-h-screen'>
       <div className="sticky top-0 z-[900]">
         <Navber  isMenuShown = {isMenuShown} setIsMenuShown ={setIsMenuShown} />
       </div>
       {/* <div style={{ opacity: Math.max(1 - scrollY / 100, 0) }} className='w-screen  tooltipWrapper -translate-y-24 h-[90vh] content-center justify-center'>
      <Hero/>
      
-</div> */}
+     </div> */}
       <AnimatePresence mode='wait'>
       {isMenuShown ?<div className='fixed top-0 z-[100] duration-700'>
       <Menu setIsShown = {setIsMenuShown}/></div>:null}
       </AnimatePresence>
       {/* <div className="fixed top-0">
         <Hero visibility = {visibility} />
-      </div> */}
+        </div> */}
 
       {/* Use the "visibility" state to control display or animation */}
       <div className={`transition-all duration-500 `}>
@@ -72,7 +73,9 @@ function Index() {
 
         <Footer/>
         </div>
-    </div>
+    </div>}
+  
+          </div>
   )
 }
 

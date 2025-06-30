@@ -27,11 +27,11 @@ index === i?{...el , isOpen : !el.isOpen}:el))
 
       {images.map((el , i)=>{
         return el.isSelected ? <motion.div
-        initial = {{opacity : 0 , y  : 50}}
-        key={i}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{duration : 0.5 , ease : 'easeInOut'}}
-        viewport={{amount : 0.3}}
+        // initial = {{opacity : 0 , y  : 50}}
+        // key={i}
+        // whileInView={{ opacity: 1, y: 0 }}
+        // transition={{duration : 0.5 , ease : 'easeInOut'}}
+        // viewport={{amount : 0.2}}
          className='px-2 '>
         <div className='flex gap-4 relative flex-col mb-1'><div className='flex gap-[4]'>
           <motion.div  className={``}>

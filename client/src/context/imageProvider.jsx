@@ -236,7 +236,7 @@ export const ImageProvider = ({ children }) => {
           modelName: 'Editorial',
           id: 'Fashion-shoot',
           captures:[ studio194 , studio195 , studio118 , studio119],
-          isOpen: true, isSelected : true,
+          isOpen: false, isSelected : true,
           allImages: allStudioImages , 
           
           about: 'A fearless muse owning every frame with bold elegance and timeless grace.'
@@ -245,7 +245,7 @@ export const ImageProvider = ({ children }) => {
           modelName: 'Beauty',
           id: 'Fashion',
           captures: [studio225, studio224 , studio194 , studio195],
-          isOpen: false, isSelected : true,
+          isOpen: true, isSelected : true,
           allImages:allClothingImages,
           about: 'A trendsetter who brings brands to life with attitude, edge, and killer looks.'
         },  {

@@ -11,11 +11,11 @@ const Loader = () => {
         initial = {{opacity : 0}}
         animate = {{opacity : 0.7}}
         transition={{duration : 3 , delay : 0.3}}
-        className='absolute text-center top-7'>{tagline}</motion.p>
+        className='absolute tracking-normal text-center top-7'>{tagline}</motion.p>
 <div className='flex absolute top-1/2 gap-1'>
  {words.map((el , i)=>{
  return < motion.h1 
- className='font-[inter-medium] text-[2vh]'
+ className='font-[inter-medium] tracking-tight text-[2vh]'
  key={i}
 initial = {{opacity : 0}}
 animate = {{opacity : 1}}

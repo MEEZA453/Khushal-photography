@@ -27,10 +27,10 @@ function About() {
 
 <div className='flex kh flex-col px-1 mt-2  gap-0'>
       <h6>
-      <b>Code1 Studio</b> is a creative digital studio founded by Meeza, dedicated to <b>crafting beautiful, functional, and impactful digital experiences</b>. We specialize in  website development, web app development, UI/UX design, and graphic design,<b>helping brands and individuals</b>  bring their visions to life through thoughtful design and powerful code.
+      <b>mzco.studio</b> is a creative digital studio founded by Meeza, dedicated to <b>crafting beautiful, functional, and impactful digital experiences</b>. We specialize in  website development, web app development, UI/UX design, and graphic design,<b>helping brands and individuals</b>  bring their visions to life through thoughtful design and powerful code.
      
       
-      At Code1 Studio, we believe that great design and development go hand in hand. Whether it's a smooth, responsive website or a dynamic web application, <b>our goal is to create work that not only looks good but works beautifully</b>. Every project we take on is approached with precision, creativity, and a user-first mindset.
+      At mzco. we believe that great design and development go hand in hand. Whether it's a smooth, responsive website or a dynamic web application, <b>our goal is to create work that not only looks good but works beautifully</b>. Every project we take on is approached with precision, creativity, and a user-first mindset.
     
       We collaborate with startups, creatives, and businesses across industries to deliver digital solutions that are modern, clean, and future-ready. From wireframes to final deployment, every pixel and line of code is built with care.
     <h6><b>Have an idea in mind? </b><h6 className='text-blue-500'>meejanursk@gmail.com</h6></h6></h6>

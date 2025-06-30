@@ -17,9 +17,9 @@ function Model() {
   
   const location = useLocation()
   const  allImages  = images
-  console.log(allImages)
+
   const { index , setImagesIndex , imagesIndex } = location.state || 0
-  console.log(setImagesIndex , imagesIndex , index)
+
   const [toggle, setToggle] = useState(false) 
   const [modelIndex, setModelIndex] = useState(index?index :0)
   const [selectedIndex , setSelectedIndex] = useState(3)
