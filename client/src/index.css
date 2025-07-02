@@ -12,6 +12,13 @@
         font-family : inter-regular;
         src : url(./assets/fonts/Inter_28pt-Regular.ttf)
     }
+        @font-face {
+        font-family : inter-medium;
+        src : url(./assets/fonts/Inter_28pt-Medium.ttf)
+    }
+    
+
+
     @font-face {
         font-family : inter-bold;
         src : url(./assets/fonts/Inter_28pt-Bold.ttf)
@@ -64,7 +71,7 @@
 
     }
     b{
-        font-family : 'inter-bold' ;
+        font-family : 'inter-regular' ;
         font-size : 4.5vw ;
         line-height : 5.5vw;
         color : black ; 

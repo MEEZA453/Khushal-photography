@@ -1,17 +1,17 @@
 import React , {useState} from 'react'
 import ImageSelector from './imageSelector.jsx'
-function ModelSelector({ imageRefs , foundedModel , setSelectedIndex, selectedIndex , coverImage, modelIndex, setModelIndex }) {
+function ModelSelector({ imagesRefs , foundedModel , setSelectedIndex, selectedIndex , coverImage, modelIndex, setModelIndex }) {
   let  [imagesLength , setImagesLength]  = useState(null)
   const handleOnclick = (el , i)=>{
     setModelIndex(i)
     setImagesLength(el.allImages.length)
   }
-  
+ 
   return (
     <div className='filter-scale flex'>
 <div className='z-[100]'> 
 
-<ImageSelector imageRefs={imageRefs} imagesLength = {imagesLength} foundedModel={foundedModel} setSelectedIndex={setSelectedIndex} selectedIndex={selectedIndex}/>
+<ImageSelector imageRefs={imagesRefs} imagesLength = {imagesLength} foundedModel={foundedModel} setSelectedIndex={setSelectedIndex} selectedIndex={selectedIndex}/>
 </div>
 
     <div className="overflow-y-scroll z-[100] h-screen border-l-[1px]  w-[20vw] ">

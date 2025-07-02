@@ -41,7 +41,7 @@ function Model() {
             setModelIndex={setModelIndex} />
 
 
-        <div className={`overflow-y-scroll z-50 h-screen model-image grid gap-16 pl-2 ${toggle ? 'grid-cols-2 p-[0vw]' : 'grid-col-1'} w-full`}>
+        <div className={`overflow-y-scroll z-50 h-screen model-image grid gap-2 pl-2 ${toggle ? 'grid-cols-2 p-[0vw]' : 'grid-col-1'} w-full`}>
           {foundedModel.map((el, i) =>
             el.allImages.map((img, j) => (
               <motion.div
@@ -54,7 +54,7 @@ function Model() {
                 transition={{ duration: 0.5, ease: "easeInOut" }}
                 viewport={{ once: true, amount: 0.3 }}
               >
-                <img loading="lazy" onClick={()=>{setSelectedImage(img)}} className={`object-cover object-top  ${toggle ? 'h-[30vw]':'h-[50vw]'}`} src={img} alt="" />
+                <img loading="lazy" onClick={()=>{setSelectedImage(img)}} className={`object-cover object-top  ${toggle ? 'h-[55vw]':'h-[100vw]'}`} src={img} alt="" />
               </motion.div>
             ))
           )}

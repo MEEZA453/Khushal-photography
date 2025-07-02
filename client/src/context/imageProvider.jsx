@@ -186,43 +186,33 @@ import studio259 from '../assets/images/Studio/Studio259.webp';
 const allImages = [
   studio127, studio128, studio129, studio130,
   studio131, studio132, studio133, studio134, studio135, studio136, studio137, studio138, studio139, studio140,
-  studio141, studio142, studio143, studio144, studio145, studio146, studio147, studio148, studio149, studio150,
-  studio151, studio152, studio153, studio154, studio155, studio156, studio157,
+ 
 ];
 const productImages = [
   studio97, studio98, studio99, studio100,
-  studio101, studio102, studio103, studio104, studio105, studio106, studio107, studio108, studio109, studio110,
-  studio111, studio112, studio113, studio114, studio115, studio116, studio117, studio118, studio119, studio120,
-  studio121, studio122, studio123, studio124, studio125, studio126,
+  studio101, studio102, studio103,
 ];
 
 const allClothingImages = [
-  studio64, studio65, studio66, studio67, studio68, studio69, studio70,
-  studio71, studio72, studio73, studio74, studio75, studio76, studio77, studio78, studio79, studio80,
-  studio81, studio82, studio83, studio84, studio85, studio86, studio87, studio88, studio89, studio90,
+ studio76, studio77, studio78, studio79, studio80,
   studio91, studio92, studio93, studio94, studio95, studio96,
 ];
 
 const allOutdoorImages = [
   studio2, studio3, studio4, studio5, studio6, studio7, studio8, studio9, studio10,
-  studio11, studio12, studio13, studio14, studio15, studio16, studio17, studio18, studio19, studio20,
-  studio21, studio22, studio23, studio24, studio25, studio26, studio27, studio28, studio29, studio30,
-  studio31, studio32, studio33,
+  
 ];
 
 const allTraditionalImages = [
   studio33, studio34, studio35, studio36, studio37, studio38, studio39, studio40,
-  studio41, studio42, studio43, studio44, studio45, studio46, studio47, studio48, studio49, studio50,
-  studio51, studio52, studio53, studio54, studio55, studio56, studio57, studio58, studio59, studio60,
+  
   studio61, studio62, studio63,
 ];
 
 
 const allStudioImages = [
    studio2, studio3, studio4, studio5, studio6, studio7, studio8, studio9, studio10,
-  studio11, studio12, studio13, studio14, studio15, studio16, studio17, studio18, studio19, studio20,
-  studio21, studio22, studio23, studio24, studio25, studio26, studio27, studio28, studio29, studio30,
-  studio31, studio32, studio33,
+  studio11, studio12, studio13, 
 ];
 
 
