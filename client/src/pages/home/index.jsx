@@ -10,11 +10,13 @@ import { AnimatePresence } from 'framer-motion'
 import {useImageContext} from '../../context/imageProvider.jsx'
 import Tooltip from '../../component/toolTip.jsx'
 import SwitchToMobile from '../../component/SwitchToMobile.jsx'
+import Loader from '../../component/loading.jsx'
 function Index() {
   const [visibility, setVisibility] = useState(false)
   const {images , setImages ,  imagesLength , setImagesLength  } = useImageContext()
   const [opacity, setOpacity] = useState(0);
  
+  const [isLoading, setIsLoading] = useState(true);
 
   const [toggle, setToggle] = useState(false)
   const [isMenuShown , setIsMenuShown] = useState(false)
@@ -38,8 +40,21 @@ function Index() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  useEffect(() => {
+    // Simulate loading time or wait for actual assets
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 2000); // You can adjust this based on your needs
+
+    return () => clearTimeout(timer);
+  }, [])
+
   return (
     <div>
+      <div style = {isLoading ? {opacity : 1} : {opacity : 0}} className='h-screen w-screen bg-white duration-500 pointer-events-none fixed top-0 z-[999]'>
+      <Loader/>
+
+      </div>
 {window.innerWidth > 640 ? <SwitchToMobile/> :   <div className='min-h-screen'>
       <div className="sticky top-0 z-[900]">
         <Navber  isMenuShown = {isMenuShown} setIsMenuShown ={setIsMenuShown} />

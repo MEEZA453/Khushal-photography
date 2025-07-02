@@ -41,7 +41,7 @@ function Menu() {
       setExpandedMenu(prev => prev === el.name ? null : el.name);
 
     } else {
-      navigate( el.path , {
+      navigate( '/Models' , {
         state : {index : i}
       })
     }

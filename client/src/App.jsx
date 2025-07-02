@@ -9,25 +9,16 @@ import { ImageProvider } from './context/imageProvider.jsx';
 import Menu from './component/menu.jsx';
 import Gallary from "./pages/gallary/gallary.jsx";
 import Loading from "./component/loading.jsx";
+import { LoadingProvider } from "./context/LoadingProvider.jsx";
 
 function App() {
-  const [isLoading, setIsLoading] = useState(true);
-
-  useEffect(() => {
-    // Simulate loading time or wait for actual assets
-    const timer = setTimeout(() => {
-      setIsLoading(false);
-    }, 2000); // You can adjust this based on your needs
-
-    return () => clearTimeout(timer);
-  }, []);
+  
 
   return (
     <React.StrictMode>
+      <LoadingProvider>
       <ImageProvider>
-        {isLoading ? (
-          <Loading />
-        ) : (
+      (
           <Router>
             <Routes>
               <Route path="/About" element={<About />} />
@@ -37,8 +28,9 @@ function App() {
               <Route path="/Models" element={<Model />} />
             </Routes>
           </Router>
-        )}
+        )
       </ImageProvider>
+        </LoadingProvider> 
     </React.StrictMode>
   );
 }
