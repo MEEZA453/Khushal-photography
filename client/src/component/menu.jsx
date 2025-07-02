@@ -90,7 +90,7 @@ function Menu() {
                 initial={{ y: 70, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 exit={{ y: 50, opacity: 0 }}
-                transition={{ duration: 0.7, delay: i * 0.1, ease: 'easeIn' }}
+                    transition={{ duration: 0.3, delay: i * 0.05 }}
                 className={`${el.name === 'Works' ? '':null} duration-300 ${
                   isPageActive(el) || expandedMenu === el.name
                     ? 'text-black text-opacity-100'

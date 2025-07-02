@@ -48,13 +48,9 @@ function Model() {
                 ref={(el) => (imageRefs.current[j] = el)}
                 key={j}
                 className="flex flex-row-reverse gap-[4px] text-right"
-                initial={{ opacity: 0, y: 50 }}
-                animate = {{ opacity: 1, y: 0}}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, ease: "easeInOut" }}
-                viewport={{ once: true, amount: 0.3 }}
+              
               >
-                <img loading="lazy" onClick={()=>{setSelectedImage(img)}} className={`object-cover object-top  ${toggle ? 'h-[55vw]':'h-[100vw]'}`} src={img} alt="" />
+                <img loading="lazy" onClick={()=>{setSelectedImage(img)}} className={`object-cover object-top  ${toggle ? 'h-[50vw]':'h-[100vw]'}`} src={img} alt="" />
               </motion.div>
             ))
           )}
