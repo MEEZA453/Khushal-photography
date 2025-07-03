@@ -1,6 +1,5 @@
 import React, { useRef, useState , useEffect } from 'react'
 import {AnimatePresence} from 'framer-motion'
-import Loading from '../component/loading2.jsx'
 import { useLocation } from 'react-router-dom'
 import Navber from '../component/navber/navber.jsx'
 import ViewToggle from '../component/button/viewToggle.jsx'
@@ -39,6 +38,8 @@ function Model() {
 },[])
   return (
     <motion.div > 
+
+
 
       <div className="flex flex-row-reverse ">
         <ModelSelector imagesRefs = {imageRefs}
