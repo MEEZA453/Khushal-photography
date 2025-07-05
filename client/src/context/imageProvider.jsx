@@ -184,35 +184,34 @@ import studio259 from '../assets/images/Studio/Studio259.webp';
 
 // Now creating the allImages array
 const allImages = [
-  studio127, studio128, studio129, studio130,
-  studio131, studio132, studio133, studio134, studio135, studio136, studio137, studio138, studio139, studio140,
- 
+ studio104 , studio105 , studio97, studio98, studio99, studio100,
+  studio101, studio102, studio103,
 ];
 const productImages = [
+  studio97, studio98, studio99, studio100,
+  studio101, studio102, studio103, studio104 , studio105 ,
+];
+
+const allClothingImages = [
   studio97, studio98, studio99, studio100,
   studio101, studio102, studio103,
 ];
 
-const allClothingImages = [
- studio76, studio77, studio78, studio79, studio80,
-  studio91, studio92, studio93, studio94, studio95, studio96,
-];
-
 const allOutdoorImages = [
-  studio2, studio3, studio4, studio5, studio6, studio7, studio8, studio9, studio10,
+  studio97, studio98, studio99, studio100,
+  studio101, studio102, studio103,
   
 ];
 
 const allTraditionalImages = [
-  studio33, studio34, studio35, studio36, studio37, studio38, studio39, studio40,
-  
-  studio61, studio62, studio63,
+  studio97, studio98, studio99, studio100,
+  studio101, studio102, studio103,
 ];
 
 
 const allStudioImages = [
-   studio2, studio3, studio4, studio5, studio6, studio7, studio8, studio9, studio10,
-  studio11, studio12, studio13, 
+  studio97, studio98, studio99, studio100,
+  studio101, studio102, studio103,
 ];
 
 
