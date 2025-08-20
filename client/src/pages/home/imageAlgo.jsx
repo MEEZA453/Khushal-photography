@@ -59,7 +59,7 @@ index === i?{...el , isOpen : !el.isOpen}:el))
                  })}}>{el.modelName}  </h2> <div  className='flex border border-[#4a4a4a] rounded-full'>
                   <GoArrowUpRight color='#4a4a4a' size = {10}/>
                   </div></div>
-              <h5 className='tracking-tight mt-1 opacity-60'>{el.about}</h5>
+              <h5 className='  opacity-60'>{el.about}</h5>
             </div>
             <div className='flex justify-between pr-4  '>
 

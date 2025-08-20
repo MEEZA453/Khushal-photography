@@ -18,7 +18,7 @@ function App() {
     <React.StrictMode>
       <LoadingProvider>
       <ImageProvider>
-      (
+      
           <Router>
             <Routes>
               <Route path="/About" element={<About />} />
@@ -28,7 +28,7 @@ function App() {
               <Route path="/Models" element={<Model />} />
             </Routes>
           </Router>
-        )
+        
       </ImageProvider>
         </LoadingProvider> 
     </React.StrictMode>

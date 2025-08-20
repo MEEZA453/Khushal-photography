@@ -15,7 +15,7 @@
     return (
       <div className='w-screen     bg-opacity-60    items-center pr-3 mb-3 flex justify-between'>
           <div className = {`${isMenuShown ? 'opacity-0':'opacity-100'} duration-500 flex mt-10 mb-10 ml-5`}>
-            {/* <img className='w-25vw] mix-blend-multiply' src={logomzco} alt="" /> */}
+          
             {/* <pre>Signature</pre> */}
             </div>
         
